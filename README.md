@@ -1,4 +1,7 @@
 # PokeDex
+
+![image-20210624114931403](/Users/vesperlee/Library/Application Support/typora-user-images/image-20210624114931403.png)
+
 MIT License
 
 Original work Copyright (c) 2018 Chester How
