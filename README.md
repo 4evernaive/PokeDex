@@ -1,8 +1,27 @@
 # PokeDex
+My iOS Final Project, based on [Pokedex](https://github.com/oskarko/Pokedex) made by [oskarko](https://github.com/oskarko).
 
-![image-20210624114931403](/Users/vesperlee/Library/Application Support/typora-user-images/image-20210624114931403.png)
+I have changed the UI of the app and add some new features.
 
-MIT License
+# Views
++ PokemonView - The Pokemon array is presented in a GridView
+  + Each cell presents the name, serial number and image of the Pokemon
++ ItemView - The item array is presented in a GridView
+  + Each Cell presents the name of the item and its purpose, image and type
++ LocationView - The town road array is presented in a GridView
+    + Each Cell shows the area where the town road is located (e.g. Shinjin is in Kanto, Kanto)
++ PokemonDetailView - a custom view showing details of each Pokemon
+    + It will display basic information and basic stats such as HP, Attack, etc.
+    + A Button to switch to the ARView
++ ARView - A view that displays a 3D model of the Pokémon
+    + A 3D model of Pokémon, made possible by ARKit
++ CoreMLView - A view for uploading images and predicting the Pokémon
+    + Train the model through CoreML and upload images from the media library for prediction
+
+# Screenshot
+<img src="index.png" alt="drawing" width="30%" />
+
+# MIT License
 
 Original work Copyright (c) 2018 Chester How
 
